@@ -1,0 +1,16 @@
+node_modules/
+data/
+coverage/
+.nyc_output/
+
+.env
+.env.*
+!.env.example
+
+*.log
+*.tmp
+*.pid
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

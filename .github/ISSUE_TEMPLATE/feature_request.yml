@@ -1,0 +1,55 @@
+name: Feature request
+description: Suggest an improvement for Guildmoji
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Guildmoji aims to stay small, local, and dependency-free. Explain the
+        problem before jumping to a specific implementation.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: What are you trying to do that is difficult or impossible today?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe the behaviour you would like to see.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Workarounds, other tools, or different designs.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Web interface
+        - Token / login
+        - Export / ZIP
+        - Image conversion
+        - Documentation
+        - Other
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: constraints
+    attributes:
+      label: Project constraints
+      options:
+        - label: This can work locally without sending data to a third party.
+          required: true
+        - label: This does not require a runtime npm dependency (or I explain why it is necessary).

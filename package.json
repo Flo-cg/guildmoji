@@ -1,0 +1,35 @@
+{
+  "name": "guildmoji",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Browse every custom emoji and sticker from your Discord servers and export the ones you want as PNG files.",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test test/units.test.js test/e2e.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "discord",
+    "emoji",
+    "stickers",
+    "exporter",
+    "png",
+    "self-hosted",
+    "no-dependencies"
+  ],
+  "author": "Flo-cg",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flo-cg/guildmoji.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Flo-cg/guildmoji/issues"
+  },
+  "homepage": "https://github.com/Flo-cg/guildmoji#readme"
+}

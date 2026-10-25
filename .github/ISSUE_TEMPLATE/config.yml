@@ -1,0 +1,7 @@
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/Flo-cg/guildmoji/security/advisories/new
+    about: Please report security issues privately, not as public issues.
+  - name: Discord token safety
+    url: https://github.com/Flo-cg/guildmoji/blob/main/SECURITY.md
+    about: Read this before sharing logs, screenshots, or token information.

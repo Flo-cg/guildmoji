@@ -1,0 +1,11 @@
+* text=auto eol=lf
+
+*.png binary
+*.gif binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ico binary
+
+docs/*.png binary
+docs/*.gif binary
